@@ -51,8 +51,8 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("""
     Dibuat oleh Kelompok 3:
     - Narendra Arshya Karnowo (5003231014)
-    - Aldenka Rifqi Ganendra Murti (5003231033)
-    - Moh. Nafri Rehanata (5003231044)
+    - Aldenka Rifqi Ganendra Murti (5003231015)
+    - Moh. Nafri Rehanata (5003231124)
     """)
 
 # ================================
@@ -341,3 +341,4 @@ elif menu == "Model dan Prediksi":
             df_new["Prediksi"] = ["Malignant" if p==1 else "Benign" for p in preds]
             st.dataframe(df_new)
             st.success("Prediksi selesai!")
+
